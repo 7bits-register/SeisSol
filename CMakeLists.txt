@@ -421,7 +421,7 @@ if (TESTING)
 
   CXXTEST_ADD_TEST_MPI(
           test_parallel_test_suite
-          4
+          2
           test_parallel.cpp
           ${CMAKE_CURRENT_SOURCE_DIR}/src/tests/minimal/Minimal.t.h
   )
